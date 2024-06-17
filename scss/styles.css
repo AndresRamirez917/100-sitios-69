@@ -8,7 +8,7 @@
 html, body {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
-  background: rgb(0, 0, 85);
+  background: rgba(56, 56, 87, 0.882);
 }
 
 a {
@@ -29,6 +29,7 @@ ul {
 
 .subtitle {
   text-align: center;
+  text-transform: uppercase;
   margin: 3rem 0;
   color: #fff;
   font-weight: 400;
@@ -66,6 +67,9 @@ img {
   background: rgb(0, 213, 255);
 }
 
+form {
+  color: #fff;
+}
 form .form-group {
   margin-bottom: 1rem;
 }
@@ -85,9 +89,23 @@ form .button-1 {
 }
 
 .box-1 {
-  background: rgb(130, 103, 248);
+  background: rgba(88, 64, 195, 0.594);
   padding: 10px;
   border-radius: 10px;
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
 }
 
 #mainheader .navbar .logo {
@@ -148,10 +166,14 @@ form .button-1 {
 }
 
 #services {
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
+  color: #fff;
 }
 #services p {
   margin-bottom: 2rem;
+  line-height: 30px;
 }
 #services .services-row img {
   width: 50px;
@@ -162,6 +184,16 @@ form .button-1 {
   line-height: 30px;
 }
 
+#contact {
+  width: 80%;
+  margin: 0 auto;
+}
+#contact p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+  line-height: 30px;
+}
 #contact form {
   width: 80%;
   margin: 0 auto;

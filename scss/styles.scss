@@ -11,7 +11,7 @@ $font-stack:"Montserrat", sans-serif;
 html, body {
     font-family: $font-stack;
     scroll-behavior: smooth;
-    background: rgb(0, 0, 85);
+    background: rgba(56, 56, 87, 0.882);
 }
 
 a {
@@ -32,6 +32,7 @@ ul {
 
 .subtitle {
     text-align: center;
+    text-transform: uppercase;
     margin: 3rem 0;
     color: #fff;
     font-weight: 400;
@@ -70,6 +71,7 @@ img {
 }
 
 form {
+    color: #fff;
     .form-group {
         margin-bottom: 1rem;
     }
@@ -90,9 +92,16 @@ form {
 }
 
 .box-1 {
-    background: rgb(130, 103, 248);
+    background: rgba(88, 64, 195, 0.594);
     padding: 10px;
     border-radius: 10px;
+}
+
+::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "\f007";
+    text-align: right;
 }
 
 //mainheader    
@@ -164,9 +173,13 @@ form {
 
 //services 
 #services {
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
+    color: #fff;
      p{
         margin-bottom: 2rem;
+        line-height: 30px;
      }
      .services-row {
         img {
@@ -182,9 +195,18 @@ form {
 
 //contact
 #contact {
+    width: 80%;
+    margin: 0 auto;
+    p {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #fff;
+        line-height: 30px;
+     }
     form {
         width: 80%;
         margin: 0 auto;
+       
         .flex-box-1 {
             flex: 1;
         }
