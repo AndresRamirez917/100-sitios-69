@@ -18,6 +18,7 @@ a {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
+    text-decoration: none;
 }
 
 ul {
@@ -95,6 +96,7 @@ form {
     background: rgba(88, 64, 195, 0.594);
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 1rem;
 }
 
 ::placeholder {
@@ -102,6 +104,11 @@ form {
     font-weight: 600;
     content: "\f007";
     text-align: right;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: violet;
 }
 
 //mainheader    
