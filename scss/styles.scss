@@ -25,7 +25,7 @@ ul {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 300;
     color: #fff;
 }
@@ -91,16 +91,21 @@ form {
 
 .box-1 {
     background: rgb(130, 103, 248);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 //mainheader    
 #mainheader {
     .navbar {
         .logo {
-            margin-top: 1.5rem;
+            margin: 1.5rem 0;
+            font-size: 2rem;
+            color: #fff;
         }
         ul {
             display: flex;
+            margin-top: 2rem;
             li {
                 text-align: center;
                 display: inline-block;
@@ -121,29 +126,58 @@ form {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 2rem;
+	padding: 120px 0;
+    padding-bottom: 20rem;
     .showcase-text {
+        width: 40%;
         text-align: left;
         h1 {
-            margin: 3rem 0;
+            margin: 1.5rem 0;
         }
         p {
             margin-bottom: 2rem;
+        }
+        .button-1 {
+            width: max-content;
         }
     }
 }
 
 //about
 #about {
-    .about-row {
+    .about-text {
         display: flex;
+        color: #fff;
         margin-bottom: 3rem;
+       p {
+        span {
+            font-size: 1.5rem;
+            font-weight: bold;
+            line-height: 50px;
+        }
+       }
+        img {
+            width: 50%;
+        }
     }
 }
 
 //services 
 #services {
     text-align: center;
+     p{
+        margin-bottom: 2rem;
+     }
+     .services-row {
+        img {
+            width: 50px;
+            margin: 3rem 0;
+        }
+        p {
+            margin-top: 2rem ;
+            line-height: 30px;
+        }
+     }
 }
 
 //contact
