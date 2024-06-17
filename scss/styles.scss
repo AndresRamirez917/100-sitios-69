@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-stack:"Montserrat", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-stack;
+    scroll-behavior: smooth;
+    background: rgb(0, 0, 85);
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 3rem 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-1 {
+    background: rgb(0, 213, 255);
+}
+
+form {
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        width: 100%;
+        display: block;
+        padding: 1rem;
+        border-radius: 4px;
+    }
+    .button-1 {
+        width: 100%;
+    }
+}
+
+.main-width {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box-1 {
+    background: rgb(130, 103, 248);
+}
+
+//mainheader    
+#mainheader {
+    .navbar {
+        .logo {
+            margin-top: 1.5rem;
+        }
+        ul {
+            display: flex;
+            li {
+                text-align: center;
+                display: inline-block;
+                margin-left: 1rem;
+            }
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+}
+
+//showcase
+#showcase {
+    background: url("/images/showcase.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2rem;
+    .showcase-text {
+        text-align: left;
+        h1 {
+            margin: 3rem 0;
+        }
+        p {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+//about
+#about {
+    .about-row {
+        display: flex;
+        margin-bottom: 3rem;
+    }
+}
+
+//services 
+#services {
+    text-align: center;
+}
+
+//contact
+#contact {
+    form {
+        width: 80%;
+        margin: 0 auto;
+        .flex-box-1 {
+            flex: 1;
+        }
+        button {
+            width: 100%;
+        }
+    }
+}
+
+
+//footer
+#footer {
+    text-align: center;
+    padding: 3rem 0;
+}
+
